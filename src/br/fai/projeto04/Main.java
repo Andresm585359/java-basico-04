@@ -13,25 +13,41 @@ public class Main {
 	
 	private void start() {
 		
-		int i=0;
 		Scanner scan = new Scanner(System.in);
+		usandoWhile();
+		usandoDoWhile();
+		usandoFor();
+		
+	}
+	
+	private void usandoWhile() {
+		
+		int i=0;
 		
 		while(i<20)
 		{
 			i++;
 			System.out.println(i);		
 		}
-		i=0;
+
+	}
+	
+	private void usandoDoWhile() {
+		
+		int i=0;
+
 		do
 		{
 			i++;
 			System.out.println(i);
 		}while(i<20);
-		for(i=1;i<=20;i++)
+
+	}
+	private void usandoFor() {
+
+		for(int i=1;i<=20;i++)
 		{
 			System.out.println(i);
 		}
-		
 	}
-
 }
