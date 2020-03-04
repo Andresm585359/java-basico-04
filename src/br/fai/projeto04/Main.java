@@ -15,15 +15,23 @@ public class Main {
 		
 		int i=0;
 		Scanner scan = new Scanner(System.in);
-		double lala;
-		lala = scan.nextDouble();
 		
 		while(i<20)
 		{
 			i++;
-			System.out.println(lala);		
-			
+			System.out.println(i);		
 		}
+		i=0;
+		do
+		{
+			i++;
+			System.out.println(i);
+		}while(i<20);
+		for(i=1;i<=20;i++)
+		{
+			System.out.println(i);
+		}
+		
 	}
 
 }
